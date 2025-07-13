@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+    
+    font-style: normal;
+}
+
+h1{
+
+    font-size: 60px;
+    font-weight: 800;
+    font-weight: bolder;
+    letter-spacing: 1.3px;
+}
+
+h4{
+
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 40px;
+    color: whitesmoke;
+    letter-spacing: 1.3px;
+}
+.nav-bar{
+
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.links{
+
+    display: flex;
+    gap: 3rem;
+    justify-content: space-between; 
+}
+
+.nav-bar a{
+
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+
+.nav-bar a:hover{
+
+    color: #f6831c;
+}
+
+.nav-bar a:active{
+
+    color:#f6831c;
+}
+
+.hero-page{
+
+    height: 91vh;
+    background-image: url(assets/hero-background.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+
+}
+
+.hero{
+
+    background-color: rgba(128, 128, 128, 0.678);
+    height: 100%;
+    text-align: center;
+    padding-top:11rem;
+    
+}
+
+.hero p{
+
+    font-size: 17px;
+    margin-top: 1.8rem;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+.hero a{
+
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.hero button {
+
+    background-color: #f6831c;
+    padding: 0.4rem;
+    border: none;
+    border-radius: 10px;
+    margin-top: 3rem;
+    font-weight: bolder;
+}
+
+.hero button a:hover{
+
+    color: black;
+}
+
+.second-page{
+
+    background:linear-gradient(#f6831c, black);
+    color: whitesmoke;
+    
+}
+.home-cards{
+
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    padding: 2rem 0;
+    
+    
+}
+
+.home-card{
+
+    border-radius: 10px;
+    height: 60vh;
+    width: 27vw;
+}
+
+.second-page img{
+
+    border-radius: 10px;
+}
+.about-text{
+
+    text-align: center;
+    line-height: 2.6rem;
+    font-weight: bold;
+    background-color: rgba(128, 128, 128, 0.493);
+
+}
+
+#about-heading{
+
+    font-size: 30px;
+}
+
+.second-page button {
+
+    background-color: #f6831c;
+    padding: 0.4rem;
+    border: none;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.second-page button a:hover{
+
+    color: black;
+}
+
+.second-page a{
+
+    text-decoration: none;
+    color: whitesmoke;
+}
